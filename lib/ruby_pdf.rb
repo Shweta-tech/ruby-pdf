@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
-require_relative "to_pdf/version"
+require_relative "ruby_pdf/version"
 require 'pdfkit'
 
-module ToPdf
+module RubyPdf
   class PdfGenerator
     def self.generate(html)
       kit = PDFKit.new(html)
-      kit.to_pdf
+      kit.ruby_pdf
     end
   end
 end
