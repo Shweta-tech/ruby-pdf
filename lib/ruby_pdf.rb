@@ -7,7 +7,7 @@ module RubyPdf
   class PdfGenerator
     def self.generate(html)
       kit = PDFKit.new(html)
-      kit.ruby_pdf
+      kit.to_pdf
     end
   end
 end

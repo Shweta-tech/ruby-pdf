@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Convert your HTMLs to PDF files"
   # spec.description = "Write a longer description or delete this line."
-  spec.homepage = "https://github.com/Shweta-tech/ruby_pdf"
+  spec.homepage = "https://github.com/Shweta-tech/ruby-pdf"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
